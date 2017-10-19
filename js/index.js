@@ -67,7 +67,7 @@ function loadItems(product, htmlDOM, category = "")
 		tempDiv.children[1].innerHTML = item["product-name"]
 		tempDiv.children[2].innerHTML = item["product-price"]
 
-		document.querySelectorAll(".product-box")[0].appendChild(tempDiv);
+		document.querySelectorAll(".product-box > .row")[0].appendChild(tempDiv);
 	}	
 }
 
