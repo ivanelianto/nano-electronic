@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 *
 {
-	font-family: "Roboto";
+	font-family: Roboto;
 	margin: 0;
 	padding: 0;
 	max-width: 100%;
@@ -12,6 +13,14 @@ html, body
 	height: 100%;
 }
 
+.container{
+	width:1200px;
+	margin:0 auto;
+}
+.row{
+	margin:-15px;
+	max-width:none;
+}
 .header
 {
 	padding: 15px;
@@ -121,7 +130,7 @@ button:hover
 .nav > ul > li
 {
 	border-right: 1px solid #444;
-	box-shadow: 1px 0px 0px black;
+	box-shadow: 1px 0px 0px #333;
 }
 
 .nav > ul > li:first-child
@@ -139,7 +148,7 @@ button:hover
 	min-height: 100%;
 }
 
-.content div:first-child
+.content > div:first-child
 {	
 	display: flex;
 	flex-direction: column;
@@ -325,14 +334,14 @@ button:hover
 	margin-top: 10px;
 }
 
-@font-face
-{
-	/** 
-	 * Enable this when production and disable font-family at line #3 
-	 */
-
+/*@font-face*/
+/*{*/
+	/*!** */
+	 /** Enable this when production and disable font-family at line #3 */
+	 /**!*/
+	/*font-family:Roboto;*/
 	/*src: url("https://fonts.googleapis.com/css?family=Roboto");*/
-}
+/*}*/
 
 @media screen and (max-width: 900px)
 {
